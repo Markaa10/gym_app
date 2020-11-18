@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:gym_app/ui/screens/home_screen.dart';
+
+import 'presentation/homeScreen/home_screen.dart';
+
 
 void main() => runApp(MyApp());
 

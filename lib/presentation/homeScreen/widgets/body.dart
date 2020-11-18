@@ -1,8 +1,9 @@
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:gym_app/size_config.dart';
-import 'package:gym_app/ui/constants.dart';
+
+import '../../helpers/constants.dart';
+import '../../helpers/size_config.dart';
 
 class Body extends StatelessWidget {
   @override

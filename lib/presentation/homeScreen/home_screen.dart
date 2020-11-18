@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:gym_app/size_config.dart';
-import 'package:gym_app/ui/constants.dart';
-import 'package:gym_app/ui/screens/components/body.dart';
+import '../helpers/constants.dart';
+import '../helpers/size_config.dart';
+
+import 'widgets/body.dart';
+
 
 class HomeScreen extends StatelessWidget {
   @override
