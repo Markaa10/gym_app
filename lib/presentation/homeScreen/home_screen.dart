@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import '../helpers/constants.dart';
+
 import '../helpers/size_config.dart';
-
+import '../helpers/styles/app_colors.dart';
 import 'widgets/body.dart';
-
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -19,11 +18,10 @@ class HomeScreen extends StatelessWidget {
         width: getProportionateScreenWidth(335),
         height: getProportionateScreenHeight(63),
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(
-            getProportionateScreenWidth(31.5),
-          ),
-          color: ksecondaryColor,
-        ),
+            borderRadius: BorderRadius.circular(
+              getProportionateScreenWidth(31.5),
+            ),
+            color: AppColors.ksecondaryColor),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.center,

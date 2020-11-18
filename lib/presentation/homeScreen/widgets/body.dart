@@ -2,7 +2,7 @@ import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import '../../helpers/constants.dart';
+import '../../helpers/styles/app_colors.dart';
 import '../../helpers/size_config.dart';
 
 class Body extends StatelessWidget {
@@ -60,7 +60,7 @@ class Body extends StatelessWidget {
                       height: getProportionateScreenHeight(58),
                       width: getProportionateScreenWidth(58),
                       decoration: BoxDecoration(
-                        color: ksecondaryColor,
+                        color: AppColors.ksecondaryColor,
                         borderRadius: BorderRadius.circular(
                             getProportionateScreenWidth(13)),
                       ),
@@ -76,7 +76,7 @@ class Body extends StatelessWidget {
                         "You're 23 hours away from your reward",
                         textAlign: TextAlign.left,
                         style: TextStyle(
-                          color: ktextColor,
+                          color: AppColors.ktextColor,
                           fontSize: getProportionateScreenWidth(14),
                           fontWeight: FontWeight.w500,
                         ),
@@ -100,7 +100,7 @@ class Body extends StatelessWidget {
                       width: getProportionateScreenWidth(212),
                       height: getProportionateScreenHeight(10),
                       decoration: BoxDecoration(
-                        color: kprimaryColor,
+                        color: AppColors.kprimaryColor,
                         borderRadius: BorderRadius.circular(
                             getProportionateScreenWidth(9.5)),
                       ),
@@ -137,11 +137,11 @@ class Body extends StatelessWidget {
               width: getProportionateScreenWidth(374),
               height: getProportionateScreenHeight(111),
               decoration: BoxDecoration(
-                  color: kgoalBgColor,
+                  color: AppColors.kgoalBgColor,
                   borderRadius: BorderRadius.circular(13),
                   boxShadow: [
                     BoxShadow(
-                      color: kgoalShadowColor,
+                      color: AppColors.kgoalShadowColor,
                       offset: Offset.zero,
                       spreadRadius: getProportionateScreenWidth(15),
                       blurRadius: getProportionateScreenWidth(15),
@@ -238,7 +238,7 @@ class Body extends StatelessWidget {
                       width: getProportionateScreenWidth(89),
                       height: getProportionateScreenHeight(109),
                       decoration: BoxDecoration(
-                          color: kprimaryColor,
+                          color: AppColors.kprimaryColor,
                           borderRadius: BorderRadius.circular(9.5)),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -275,7 +275,7 @@ class Body extends StatelessWidget {
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(
                                     getProportionateScreenWidth(30)),
-                                color: kprimaryColor,
+                                color: AppColors.kprimaryColor,
                               ),
                             ),
                           ],
@@ -291,7 +291,7 @@ class Body extends StatelessWidget {
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(
                                     getProportionateScreenWidth(30)),
-                                color: kprimaryColor,
+                                color: AppColors.kprimaryColor,
                               ),
                             ),
                           ],
@@ -307,7 +307,7 @@ class Body extends StatelessWidget {
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(
                                     getProportionateScreenWidth(30)),
-                                color: kprimaryColor,
+                                color: AppColors.kprimaryColor,
                               ),
                             ),
                           ],
@@ -319,7 +319,7 @@ class Body extends StatelessWidget {
                             SizedBox(height: SizeConfig.screenHeight * 0.006),
                             DottedBorder(
                               borderType: BorderType.Circle,
-                              color: kprimaryColor,
+                              color: AppColors.kprimaryColor,
                               strokeWidth: 1,
                               child: Container(
                                 width: getProportionateScreenWidth(12),
@@ -335,7 +335,7 @@ class Body extends StatelessWidget {
                             SizedBox(height: SizeConfig.screenHeight * 0.006),
                             DottedBorder(
                               borderType: BorderType.Circle,
-                              color: kprimaryColor,
+                              color: AppColors.kprimaryColor,
                               strokeWidth: 1,
                               child: Container(
                                 width: getProportionateScreenWidth(12),
@@ -351,7 +351,7 @@ class Body extends StatelessWidget {
                             SizedBox(height: SizeConfig.screenHeight * 0.006),
                             DottedBorder(
                               borderType: BorderType.Circle,
-                              color: kprimaryColor,
+                              color: AppColors.kprimaryColor,
                               strokeWidth: 1,
                               child: Container(
                                 width: getProportionateScreenWidth(12),
@@ -367,7 +367,7 @@ class Body extends StatelessWidget {
                             SizedBox(height: SizeConfig.screenHeight * 0.006),
                             DottedBorder(
                               borderType: BorderType.Circle,
-                              color: kprimaryColor,
+                              color: AppColors.kprimaryColor,
                               strokeWidth: 1,
                               child: Container(
                                 width: getProportionateScreenWidth(12),
